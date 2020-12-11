@@ -5,7 +5,6 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-
 				<h1>Example with autoplay and no controls</h1>
 				<ReactHlsPlayer
 					url='/video/output.m3u8'
@@ -15,7 +14,7 @@ function App() {
 					height={300}
 				/>
 
-				<h1>Example of Retreat East working:</h1>
+				<h1>Example of streaming working:</h1>
 				<p>You can see progress bar in the control showing HLS loading part by part</p>
 				<ReactHlsPlayer
 					url='/video/output.m3u8'
